@@ -2,10 +2,10 @@
 ## teeworlds-docker-server
 Basic alpine based Teeworlds server in docker
 
-![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/caroga/teeworlds-docker-server.svg?style=for-the-badge)
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/caroga/teeworlds-docker-server.svg?style=for-the-badge)
-![Docker Pulls](https://img.shields.io/docker/pulls/caroga/teeworlds-docker-server.svg?style=for-the-badge)
-![Docker Stars](https://img.shields.io/docker/stars/caroga/teeworlds-docker-server.svg?style=for-the-badge)
+[<img src="https://img.shields.io/docker/cloud/automated/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
+[<img src="https://img.shields.io/docker/cloud/build/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
+[<img src="https://img.shields.io/docker/pulls/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
+[<img src="https://img.shields.io/docker/stars/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
 
 
 *Things to do:*
