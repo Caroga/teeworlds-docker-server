@@ -7,8 +7,7 @@ Basic alpine based Teeworlds server in docker
 [<img src="https://img.shields.io/microbadger/layers/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
 
 
-*Things to do:*
-- ~~make image smaller~~
+**Things to do:**
 - Write a docker-compose.yml quickstart 
 - Add support for environment settings
 - documentation, documentation, documentation
