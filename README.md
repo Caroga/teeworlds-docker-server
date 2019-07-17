@@ -13,3 +13,13 @@ Basic alpine based Teeworlds server in docker
 - Write a docker-compose.yml quickstart 
 - Get the process to stop by sending SIGTERM
 - documentation, documentation, documentation
+
+
+# Running stand-alone
+Simplest way to run this image with it's default server config is:
+
+`docker run --rm --init teeworlds-docker-server`
+
+If you wish to overwrite the server configurations file you can do so by passing a local configuration file to `/opt/teeworlds/autoexec.cfg`, e.g.:
+
+`docker run --rm --init -v '$pwd:/opt/teeworlds/autoexec.cfg' teeworlds-docker-server`
