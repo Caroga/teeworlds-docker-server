@@ -2,17 +2,26 @@
 ## teeworlds-docker-server
 Basic alpine based Teeworlds server in docker
 
-[<img src="https://img.shields.io/docker/cloud/automated/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
 [<img src="https://img.shields.io/docker/cloud/build/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
 [<img src="https://img.shields.io/docker/pulls/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
-[<img src="https://img.shields.io/docker/stars/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
+[<img src="https://img.shields.io/microbadger/layers/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
 
 
-*Things to do:*
-- ~~make image smaller~~
-- Write a docker-compose.yml quickstart 
-- Get the process to stop by sending SIGTERM
+**Things to do:**
+- Add support for environment settings
 - documentation, documentation, documentation
+
+**Things done:**
+- ~~Write a docker-compose.yml quickstart~~ 
+- ~~make image smaller~~ Worked! [![](https://images.microbadger.com/badges/image/caroga/teeworlds-docker-server.svg)](https://microbadger.com/images/caroga/teeworlds-docker-server)
+- ~~Get the process to stop by sending SIGTERM~~
+
+# Docker-compose
+Simply copy the contents from [docker-compose.yml](docker-compose.yml) locally and run:
+
+```bash
+$ docker-compose up -d
+```
 
 
 # Running stand-alone
