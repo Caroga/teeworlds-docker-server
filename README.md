@@ -2,18 +2,20 @@
 ## teeworlds-docker-server
 Basic alpine based Teeworlds server in docker
 
-[<img src="https://img.shields.io/docker/cloud/automated/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
 [<img src="https://img.shields.io/docker/cloud/build/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
 [<img src="https://img.shields.io/docker/pulls/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
-[<img src="https://img.shields.io/docker/stars/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
+[<img src="https://img.shields.io/microbadger/layers/caroga/teeworlds-docker-server.svg?style=for-the-badge">](https://hub.docker.com/r/caroga/teeworlds-docker-server)
 
 
 *Things to do:*
 - ~~make image smaller~~
 - Write a docker-compose.yml quickstart 
-- Get the process to stop by sending SIGTERM
+- Add support for environment settings
 - documentation, documentation, documentation
 
+**Things done:**
+- ~~make image smaller~~ Worked! [![](https://images.microbadger.com/badges/image/caroga/teeworlds-docker-server.svg)](https://microbadger.com/images/caroga/teeworlds-docker-server)
+- ~~Get the process to stop by sending SIGTERM~~
 
 # Running stand-alone
 Simplest way to run this image with it's default server config is:
