@@ -1,0 +1,6 @@
+version: '3.4'
+services:
+  server:
+    image: "caroga/teeworlds-docker-server:latest"
+    ports:
+      - "8303:8303/udp"
