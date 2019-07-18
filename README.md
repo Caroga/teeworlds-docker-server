@@ -20,7 +20,7 @@ Basic alpine based Teeworlds server in docker
 Simply copy the contents from [docker-compose.yml](docker-compose.yml) locally and run it:
 
 *Docker-compose with all server options*
-```bash
+```yml
 version: '3.4'
 services:
   server:
