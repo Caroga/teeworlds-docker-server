@@ -22,10 +22,11 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 
 COPY --from=base /opt/teeworlds_build/build /opt/teeworlds
 RUN apk --update add --no-cache libstdc++
-COPY ./autoexec.cfg /opt/teeworlds/autoexec.cfg
+COPY ./run.sh /opt/teeworlds/run.sh
+RUN chmod +x /opt/teeworlds/run.sh
 
 EXPOSE 8303/udp
 
 WORKDIR /opt/teeworlds
 
-ENTRYPOINT ["./teeworlds_srv"]
+ENTRYPOINT ["./run.sh"]
